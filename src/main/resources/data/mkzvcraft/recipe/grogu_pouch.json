@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"pattern": [
+		"S S",
+		"L L",
+		"LLL"
+	],
+	"key": {
+		"S": "minecraft:string",
+		"L": "minecraft:leather"
+	},
+	"result": {
+		"id": "mkzvcraft:grogu_pouch",
+		"count": 1
+	}
+}

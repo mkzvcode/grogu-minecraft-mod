@@ -1,0 +1,14 @@
+{
+	"schemaVersion": 1,
+	"id": "mkzvcraft-gametest",
+	"version": "1.0.0",
+	"name": "MKZV Craft Demo",
+	"environment": "*",
+	"entrypoints": {
+		"fabric-client-gametest": [
+			"com.mkzv.mkzvcraft.gametest.DemoClientGameTest",
+			"com.mkzv.mkzvcraft.gametest.GroguDemoClientGameTest",
+			"com.mkzv.mkzvcraft.gametest.PouchDemoClientGameTest"
+		]
+	}
+}

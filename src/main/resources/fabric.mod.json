@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "mkzvcraft",
+	"version": "${version}",
+	"name": "MKZV Craft",
+	"description": "Grogu fan mod: a tameable little Force user who pushes monsters away, heals you and rides in a pouch on your belt.",
+	"authors": [
+		"MKZV"
+	],
+	"contact": {
+		"homepage": "https://github.com/mkzvcode/grogu-minecraft-mod",
+		"sources": "https://github.com/mkzvcode/grogu-minecraft-mod",
+		"issues": "https://github.com/mkzvcode/grogu-minecraft-mod/issues"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/mkzvcraft/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.mkzv.mkzvcraft.MkzvCraft"
+		],
+		"client": [
+			"com.mkzv.mkzvcraft.client.MkzvCraftClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

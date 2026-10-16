@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"pattern": [
+		" A ",
+		"ADA",
+		" A "
+	],
+	"key": {
+		"A": "minecraft:amethyst_shard",
+		"D": "minecraft:diamond"
+	},
+	"result": {
+		"id": "mkzvcraft:test_gem",
+		"count": 1
+	}
+}
