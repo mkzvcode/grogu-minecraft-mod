@@ -1,51 +1,80 @@
-# Grogu Minecraft Mod (MKZV Craft)
+<p align="center">
+  <img src="docs/images/icon.png" alt="Grogu" width="128">
+</p>
 
-[English](#english) · [Русский](#русский)
+<h1 align="center">Grogu</h1>
 
-![Grogu](docs/images/grogu.png)
+<p align="center">
+  <b>A tiny Force user for Minecraft. Tame him, carry him in a pouch, and let him protect you.</b><br>
+  <b>Маленький мастер Силы для Minecraft. Приручи его, носи в подсумке, и он будет тебя защищать.</b>
+</p>
+
+<p align="center">
+  Minecraft 26.3 · Fabric · <a href="../../releases">Download / Скачать</a>
+</p>
+
+<p align="center">
+  <a href="#english">English</a> · <a href="#русский">Русский</a>
+</p>
+
+![Grogu in the swamp](docs/images/hero.jpg)
 
 ---
 
 ## English
 
-A Fabric fan mod for Minecraft: a little Grogu you can tame and carry around in a pouch, who protects and heals you with the Force.
+### ✨ Features
 
-**Status: beta (0.1.0-beta).** Minecraft **26.3**, Fabric.
+**🟢 Grogu.** A peaceful little mob, a bit shorter than a block. He lives in swamps and mangrove swamps (rarely!), and there is a spawn egg too.
 
-### Features
+**🍪 Taming.** Feed him **cookies** (1 in 3 chance). A tamed Grogu follows you everywhere, sits down on right-click and eats cookies and fish.
 
-**Grogu** is a peaceful mob, a bit shorter than one block.
-- Rarely found in swamps and mangrove swamps. There is also a spawn egg (Spawn Eggs tab).
-- Tame him with **cookies** (1 in 3 chance). He eats cookies and fish.
-- A tamed Grogu follows you; right-click makes him sit down or stand up.
+![Evening by the campfire](docs/images/campfire.jpg)
 
-**The Force**
-- **Push:** when a monster gets close to Grogu or to you, he closes his eyes, stretches out his hand and throws it away.
-- **Heal:** when you are at half health or lower, Grogu restores 4 hearts and gives you Regeneration. Once a minute.
-- **Fatigue:** after a heal, or several pushes in a row, Grogu falls asleep for a while.
+**💨 Force Push.** When a monster comes close to Grogu or to you, he closes his eyes, raises his hand and throws it away.
 
-![Force push from the pouch](docs/images/force-push.png)
+![Force Push](docs/images/force-push.jpg)
 
-**Grogu's Pouch**
-- Recipe: 2 string on top, 5 leather in a "U" shape.
-- Right-click your Grogu with the pouch: he climbs in and the icon changes.
-- While the pouch with Grogu is in your inventory, he rides on your belt (visible in third person, `F5`), protects and heals you. He slowly regains health in there.
-- Right-click a block with the pouch to let him out. If you drop the pouch or die, he jumps out by himself.
-- The pouch tooltip shows Grogu's health and whether his heal is ready.
+**💚 Force Heal.** When you drop to half health or lower, Grogu heals you for 4 hearts and gives you Regeneration. Once a minute.
+
+![Force Heal](docs/images/force-heal.jpg)
+
+**😴 Fatigue.** Big Force feats tire him out: after a heal, or several pushes in a row, he takes a nap.
+
+**🎒 Grogu's Pouch.** Put Grogu in a pouch and he rides on your belt, still pushing monsters away and healing you.
+- Right-click your Grogu with the pouch: he climbs in, and the icon shows him peeking out.
+- The tooltip shows his health and when his heal is ready.
+- Right-click a block to let him out. If you drop the pouch or die, he jumps out by himself.
+- He slowly regains health while resting in the pouch.
 
 <p>
-  <img src="docs/images/pouch-front.png" alt="Grogu in the pouch" height="300">
-  <img src="docs/images/pouch-tooltip.png" alt="Pouch tooltip" height="300">
+  <img src="docs/images/pouch.jpg" alt="Grogu in the pouch" width="49%">
+  <img src="docs/images/pouch-tooltip.png" alt="Pouch tooltip" width="49%">
 </p>
 
-### Installation
+**Pouch recipe:**
+```
+String   ·        String
+Leather  ·        Leather
+Leather  Leather  Leather
+```
+
+### 📦 Installation
 
 1. Minecraft **26.3** with [Fabric Loader](https://fabricmc.net/use/) 0.19.5 or newer.
 2. Put into your `mods` folder:
    - [Fabric API](https://modrinth.com/mod/fabric-api) for 26.3;
-   - `mkzvcraft-0.1.0-beta.jar` from the [Releases](../../releases) page.
+   - `grogu-0.1.0-beta+mc26.3.jar` from the [Releases](../../releases) page.
+3. Needed on both the client and the server.
 
-### Building from source
+Commands for a quick try (cheats on):
+```
+/give @s grogu:grogu_spawn_egg
+/give @s grogu:grogu_pouch
+/give @s cookie 8
+```
+
+### 🛠 Building from source
 
 Requires Java 25.
 
@@ -53,59 +82,68 @@ Requires Java 25.
 ./gradlew build
 ```
 
-The mod jar ends up in `build/libs/mkzvcraft-<version>.jar`.
+The jar ends up in `build/libs/`. `./gradlew runClient` starts the game with the mod; `./gradlew runClientGameTest` runs in-game tests and saves screenshots to `build/run/clientGameTest/screenshots`.
 
-- `./gradlew runClient` starts the game with the mod.
-- `./gradlew runClientGameTest` runs in-game tests: it creates a world, checks the Force and the pouch, and saves screenshots to `build/run/clientGameTest/screenshots`.
+### ⭐ Like it?
 
-### Disclaimer
-
-This is an unofficial fan project. Grogu and Star Wars belong to Lucasfilm Ltd. and The Walt Disney Company. This project is not affiliated with them. All models and textures in the mod were made from scratch.
-
-The mod's code is licensed under the terms in [LICENSE](LICENSE).
+Star the repository and report bugs or ideas in [Issues](../../issues)!
 
 ---
 
 ## Русский
 
-Фанатский мод для Minecraft на Fabric: маленький Грогу, которого можно приручить и носить с собой в подсумке. Он защищает и лечит тебя с помощью Силы.
+### ✨ Возможности
 
-**Статус: beta (0.1.0-beta).** Minecraft **26.3**, Fabric.
+**🟢 Грогу.** Мирный маленький моб ростом чуть меньше блока. Живёт в болотах и мангровых болотах (редко!), есть и яйцо призыва.
 
-### Что есть в моде
+**🍪 Приручение.** Корми его **печеньем** (шанс 1 к 3). Приручённый Грогу ходит за тобой повсюду, садится по ПКМ и ест печенье и рыбу.
 
-**Грогу** — мирный моб ростом чуть меньше блока.
-- Редко встречается в болотах и мангровых болотах. Есть яйцо призыва (вкладка «Яйца призыва»).
-- Приручается **печеньем** (шанс 1 к 3). Ест печенье и рыбу.
-- Приручённый ходит за тобой, по ПКМ садится и встаёт.
+![Вечер у костра](docs/images/campfire.jpg)
 
-**Сила**
-- **Толчок:** если монстр подходит к Грогу или к тебе, Грогу закрывает глаза, тянет руку и отшвыривает его.
-- **Лечение:** когда у тебя половина здоровья или меньше, Грогу восстанавливает 4 сердца и даёт регенерацию. Раз в минуту.
-- **Усталость:** после лечения или нескольких толчков подряд Грогу засыпает.
+**💨 Толчок Силой.** Если монстр подходит к Грогу или к тебе, Грогу закрывает глаза, поднимает руку и отшвыривает его.
 
-![Толчок Силой из подсумка](docs/images/force-push.png)
+![Толчок Силой](docs/images/force-push.jpg)
 
-**Подсумок для Грогу**
-- Крафт: 2 нити сверху, 5 кожи (как буква «U»).
-- ПКМ подсумком по своему Грогу — он залезает внутрь, иконка меняется.
-- Пока подсумок с Грогу лежит в инвентаре, Грогу висит у тебя на поясе (видно в `F5`), защищает и лечит. В подсумке он потихоньку восстанавливает здоровье.
-- ПКМ подсумком по блоку — Грогу вылезает. Если выбросить подсумок или умереть, он выпрыгнет сам.
-- В подсказке к подсумку видно здоровье Грогу и готово ли лечение.
+**💚 Лечение Силой.** Когда у тебя половина здоровья или меньше, Грогу восстанавливает 4 сердца и даёт регенерацию. Раз в минуту.
+
+![Лечение Силой](docs/images/force-heal.jpg)
+
+**😴 Усталость.** Большие усилия его выматывают: после лечения или нескольких толчков подряд он засыпает.
+
+**🎒 Подсумок для Грогу.** Посади Грогу в подсумок, и он поедет у тебя на поясе, продолжая отшвыривать монстров и лечить тебя.
+- ПКМ подсумком по своему Грогу: он залезает внутрь, а на иконке видно, как он выглядывает.
+- В подсказке видно его здоровье и когда будет готово лечение.
+- ПКМ по блоку — выпустить. Если выбросить подсумок или умереть, Грогу выпрыгнет сам.
+- В подсумке он потихоньку восстанавливает здоровье.
 
 <p>
-  <img src="docs/images/pouch-front.png" alt="Грогу в подсумке" height="300">
-  <img src="docs/images/pouch-tooltip.png" alt="Подсказка подсумка" height="300">
+  <img src="docs/images/pouch.jpg" alt="Грогу в подсумке" width="49%">
+  <img src="docs/images/pouch-tooltip.png" alt="Подсказка подсумка" width="49%">
 </p>
 
-### Установка
+**Крафт подсумка:**
+```
+Нить   ·     Нить
+Кожа   ·     Кожа
+Кожа   Кожа  Кожа
+```
+
+### 📦 Установка
 
 1. Minecraft **26.3** с [Fabric Loader](https://fabricmc.net/use/) 0.19.5 или новее.
 2. Положи в папку `mods`:
    - [Fabric API](https://modrinth.com/mod/fabric-api) для 26.3;
-   - `mkzvcraft-0.1.0-beta.jar` со страницы [Releases](../../releases).
+   - `grogu-0.1.0-beta+mc26.3.jar` со страницы [Releases](../../releases).
+3. Мод нужен и на клиенте, и на сервере.
 
-### Сборка из исходников
+Команды, чтобы быстро попробовать (с читами):
+```
+/give @s grogu:grogu_spawn_egg
+/give @s grogu:grogu_pouch
+/give @s cookie 8
+```
+
+### 🛠 Сборка из исходников
 
 Нужна Java 25.
 
@@ -113,13 +151,13 @@ The mod's code is licensed under the terms in [LICENSE](LICENSE).
 ./gradlew build
 ```
 
-Готовый мод: `build/libs/mkzvcraft-<версия>.jar`.
+Готовый файл появится в `build/libs/`. `./gradlew runClient` запускает игру с модом, `./gradlew runClientGameTest` гоняет автотесты в игре и сохраняет скриншоты в `build/run/clientGameTest/screenshots`.
 
-- `./gradlew runClient` — запустить игру с модом.
-- `./gradlew runClientGameTest` — автотесты в игре: создают мир, проверяют Силу и подсумок и сохраняют скриншоты в `build/run/clientGameTest/screenshots`.
+### ⭐ Нравится?
 
-### Отказ от ответственности
+Поставь звезду репозиторию и пиши о багах и идеях в [Issues](../../issues)!
 
-Это неофициальный фанатский проект. Грогу и «Звёздные войны» принадлежат Lucasfilm Ltd. и The Walt Disney Company. Проект с ними не связан. Все модели и текстуры в моде сделаны с нуля.
+---
 
-Код мода распространяется по лицензии из файла [LICENSE](LICENSE).
+<sub>Unofficial fan project. Grogu and Star Wars belong to Lucasfilm Ltd. and The Walt Disney Company; this project is not affiliated with them. All models and textures were made from scratch. Code license: see [LICENSE](LICENSE).</sub><br>
+<sub>Неофициальный фанатский проект. Грогу и «Звёздные войны» принадлежат Lucasfilm Ltd. и The Walt Disney Company, проект с ними не связан. Все модели и текстуры сделаны с нуля. Лицензия кода — в файле [LICENSE](LICENSE).</sub>

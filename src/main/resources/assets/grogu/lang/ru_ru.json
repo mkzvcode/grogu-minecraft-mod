@@ -1,0 +1,15 @@
+{
+	"item.grogu.grogu_spawn_egg": "Яйцо призыва Грогу",
+	"item.grogu.grogu_pouch": "Подсумок для Грогу",
+	"item.grogu.grogu_pouch.full": "Подсумок с Грогу",
+	"entity.grogu.grogu": "Грогу",
+	"message.grogu.grogu_pouch.not_yours": "Грогу тебе пока не доверяет",
+	"message.grogu.grogu_pouch.occupied": "Подсумок уже занят",
+	"tooltip.grogu.grogu_pouch.empty": "ПКМ по своему Грогу — посадить в подсумок",
+	"tooltip.grogu.grogu_pouch.health": "Здоровье Грогу: %s/%s",
+	"tooltip.grogu.grogu_pouch.heal_ready": "Лечение готово: вылечит, когда у тебя половина здоровья или меньше",
+	"tooltip.grogu.grogu_pouch.heal_cooldown": "Лечение восстановится через %s с",
+	"tooltip.grogu.grogu_pouch.napping": "Спит, устал от Силы",
+	"tooltip.grogu.grogu_pouch.inactive": "Не активен: работает только первый подсумок в инвентаре",
+	"tooltip.grogu.grogu_pouch.release": "ПКМ по блоку — выпустить Грогу"
+}

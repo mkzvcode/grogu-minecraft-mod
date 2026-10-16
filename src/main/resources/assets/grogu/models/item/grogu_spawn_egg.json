@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "grogu:item/grogu_spawn_egg"
+	}
+}

@@ -15,7 +15,7 @@ loom {
 	splitEnvironmentSourceSets()
 
 	mods {
-		"mkzvcraft" {
+		"grogu" {
 			sourceSet sourceSets.main
 			sourceSet sourceSets.client
 		}
@@ -26,7 +26,7 @@ loom {
 fabricApi {
 	configureTests {
 		createSourceSet = true
-		modId = "mkzvcraft-gametest"
+		modId = "grogu-gametest"
 		enableGameTests = false
 		enableClientGameTests = true
 		eula = true

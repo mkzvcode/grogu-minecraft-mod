@@ -1,14 +1,14 @@
 {
 	"schemaVersion": 1,
-	"id": "mkzvcraft-gametest",
+	"id": "grogu-gametest",
 	"version": "1.0.0",
-	"name": "MKZV Craft Demo",
+	"name": "Grogu Demo Tests",
 	"environment": "*",
 	"entrypoints": {
 		"fabric-client-gametest": [
-			"com.mkzv.mkzvcraft.gametest.DemoClientGameTest",
-			"com.mkzv.mkzvcraft.gametest.GroguDemoClientGameTest",
-			"com.mkzv.mkzvcraft.gametest.PouchDemoClientGameTest"
+			"com.mkzv.grogu.gametest.GroguDemoClientGameTest",
+			"com.mkzv.grogu.gametest.PouchDemoClientGameTest",
+			"com.mkzv.grogu.gametest.ShowcaseClientGameTest"
 		]
 	}
 }
